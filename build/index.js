@@ -169,7 +169,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // Render the App component into the DOM
-(0,_wordpress_element__WEBPACK_IMPORTED_MODULE_2__.render)((0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_App__WEBPACK_IMPORTED_MODULE_1__["default"], null), document.getElementById('wp-react-js'));
+const wpReactJs = document.getElementById("wp-react-js");
+if (wpReactJs) {
+  (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_2__.render)((0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_App__WEBPACK_IMPORTED_MODULE_1__["default"], null), wpReactJs);
+}
 }();
 /******/ })()
 ;

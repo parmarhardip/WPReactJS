@@ -7,4 +7,7 @@ import { render } from '@wordpress/element';
 import './style/main.scss';
 
 // Render the App component into the DOM
-render(<App />, document.getElementById('wp-react-js'));
+const wpReactJs = document.getElementById("wp-react-js")
+if( wpReactJs ) {
+    render(<App />, wpReactJs);
+}
