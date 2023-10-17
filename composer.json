@@ -1,0 +1,17 @@
+{
+    "name": "hardip/wpreactjs",
+    "description": "This is demo setup for ReactJs WordPress plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Hardip\\Wpreactjs\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hardip",
+            "email": "parmarhardip1995@gmail.com"
+        }
+    ],
+    "require": {}
+}

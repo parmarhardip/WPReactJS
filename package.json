@@ -1,0 +1,24 @@
+{
+  "name": "wpreactjs",
+  "version": "1.0.0",
+  "description": "This is demo setup for ReactJs WordPress plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:parmarhardip/WPReactJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parmarhardip/WPReactJS/issues"
+  },
+  "homepage": "https://github.com/parmarhardip/WPReactJS#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.14.0"
+  }
+}
